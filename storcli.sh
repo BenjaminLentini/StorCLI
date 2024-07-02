@@ -1,0 +1,1 @@
+sudo cd && wget https://github.com/BenjaminLentini/StorCLI/raw/main/storcli_007.2908.0000.0000_all.deb && dpkg -I storcli* && echo 'export PATH="/opt/MegaRAID/storcli:$PATH"' >> ~/.bashrc && export PATH="/opt/MegaRAID/storcli:$PATH" && rm -f storcli*
